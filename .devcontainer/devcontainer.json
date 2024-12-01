@@ -1,6 +1,7 @@
 {
   "name": "Advent of Code Space",
   "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "postCreateCommand": "pip install -r requirements.txt",
   "features": {
     "ghcr.io/devcontainers/features/python:1": {"version": "3.12"}
   }
