@@ -1,5 +1,5 @@
 from collections import Counter
-from day2 import solve_day2_part1
+import day2
 
 def solve_1_1(first_list: list[int], second_list: list[int]) -> None:
     first_list.sort()
@@ -20,4 +20,4 @@ def solve_1_2(first_list: list[int], second_list: list[int]) -> None:
     print(similarity_score)
     
 if __name__ == "__main__":
-    solve_day2_part1()
+    day2.solve_day2_part2()
