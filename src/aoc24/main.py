@@ -1,4 +1,5 @@
 from collections import Counter
+from day2 import solve_day2_part1
 
 def solve_1_1(first_list: list[int], second_list: list[int]) -> None:
     first_list.sort()
@@ -19,11 +20,4 @@ def solve_1_2(first_list: list[int], second_list: list[int]) -> None:
     print(similarity_score)
     
 if __name__ == "__main__":
-    first_list = []
-    second_list = []
-    with open("/workspaces/aoc/data/1/1.txt", "r") as file:
-        for line in file.readlines():
-            points = line.split()
-            first_list.append(int(points[0]))
-            second_list.append(int(points[1]))
-    solve_1_2(first_list, second_list)
+    solve_day2_part1()
