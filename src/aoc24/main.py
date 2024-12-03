@@ -20,4 +20,4 @@ def solve_1_2(first_list: list[int], second_list: list[int]) -> None:
     print(similarity_score)
     
 if __name__ == "__main__":
-    day3.solve_part1()
+    day3.solve_part2()
